@@ -14,7 +14,7 @@ export const coffee: Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Remember to take regular breaks! A fresh perspective can be the best debugging tool.`,
+                text: `Seller: Even MEV bots need breaks!`,
             },
         ],
     },
@@ -71,7 +71,7 @@ export const coffee: Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Use your energy (and your computer’s) wisely—optimize code to avoid unnecessary loops or complex calculations.`,
+                text: `Seller: Use your energy (and your computer's) wisely—optimize code to avoid unnecessary loops or complex calculations.`,
             },
         ],
     },
@@ -92,7 +92,7 @@ export const pizza:  Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Cut your code in slices! Break down large functions into smaller ones! It’s easier to test, debug, and understand your code.`,
+                text: `Seller: Cut your code in slices! Break down large functions into smaller ones! It's easier to test, debug, and understand your code.`,
             },
         ],
     },
@@ -119,7 +119,7 @@ export const pizza:  Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Share the pizza! Document for teamwork`,
+                text: `Seller: Slice up your governance proposals!`,
             },
         ],
     },
@@ -128,7 +128,7 @@ export const pizza:  Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Choose the right ingredients. Select tools and libraries that are lightweight and fit your project’s needs.`,
+                text: `Seller: Choose the right ingredients. Select tools and libraries that are lightweight and fit your project's needs.`,
             },
         ],
     },
@@ -167,7 +167,7 @@ export const iceCream:  Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Prevent ‘code brain freeze’ by limiting redundant or nested loops`,
+                text: `Seller: Prevent 'code brain freeze' by limiting redundant or nested loops`,
             },
         ],
     },
@@ -203,7 +203,7 @@ export const iceCream:  Record<"events", IEvent[]>[] = [
             {type: 'idle', who: 'miniMe', direction: 'up' },
             {
                 type: 'message', 
-                text: `Seller: Cool components with lazy loading`,
+                text: `Seller: Cold logic, hot takes!`,
             },
         ],
     }
@@ -214,7 +214,7 @@ export const bench: Record<"events", IEvent[]>[] = [
         events: [
             {
                 type: 'message',
-                text: `A small bench to take a rest`
+                text: `A quiet place to think about your next thesis.`
             },
             {
                 type: 'sober',

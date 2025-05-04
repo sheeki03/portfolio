@@ -48,10 +48,10 @@ export const techskills = {
             },
             interactions: [
                 {
-                    events: [{type: 'message', text: 'Javascript'}]
+                    events: [{type: 'message', text: 'Solidity'}]
                 }
             ],
-            label: 'Javascript'
+            label: 'Solidity'
         }),
         avatarNode: new GameObject({
             x: getGridPosition(4),
@@ -72,11 +72,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'NodeJS'}
+                        {type: 'message', text: 'DeFi Game Theory'}
                     ]
                 }
             ],
-            label: 'NodeJS'
+            label: 'DeFi Game Theory'
         }),
         avatarGit: new GameObject({
             x: getGridPosition(8),
@@ -96,11 +96,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: `Git - Version Control System`},
+                        {type: 'message', text: `MEV`},
                     ]
                 }
             ],
-            label: 'Git'
+            label: 'MEV'
         }),
         avatarDocker: new GameObject({
             x: getGridPosition(11),
@@ -121,11 +121,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'Docker'}
+                        {type: 'message', text: 'Python'}
                     ]
                 }
             ],
-            label: 'Docker'
+            label: 'Python'
         }),
         avatarReact: new GameObject({
             x: getGridPosition(1),
@@ -146,11 +146,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'React'}
+                        {type: 'message', text: 'SQL'}
                     ]
                 }
             ],
-            label: 'React'
+            label: 'SQL'
         }),
         avatarDevtools: new GameObject({
             x: getGridPosition(4),
@@ -171,11 +171,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'Chrome DevTools'}
+                        {type: 'message', text: 'Ethereum'}
                     ]
                 }
             ],
-            label: 'Dev Tools'
+            label: 'Ethereum'
         }),
         avatarCss: new GameObject({
             x: getGridPosition(8),
@@ -196,11 +196,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'CSS'}
+                        {type: 'message', text: 'Cosmos'}
                     ]
                 }
             ],
-            label: 'CSS'
+            label: 'Cosmos'
         }),
         avatarTypescript: new GameObject({
             x: getGridPosition(11),
@@ -221,11 +221,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'Typescript'}
+                        {type: 'message', text: 'EVM & Rollups'}
                     ]
                 }
             ],
-            label: 'Typescript'
+            label: 'EVM & Rollups'
         }),
         avatarWebpack: new GameObject({
             x: getGridPosition(2),
@@ -246,11 +246,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'Webpack'}
+                        {type: 'message', text: 'Tokenomics'}
                     ]
                 }
             ],
-            label: 'Webpack'
+            label: 'Tokenomics'
         }),
         avatarJest: new GameObject({
             x: getGridPosition(6),
@@ -271,11 +271,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'Jest - Unit Tests'}
+                        {type: 'message', text: 'Onchain Analytics'}
                     ]
                 }
             ],
-            label: 'Jest'
+            label: 'Onchain Analytics'
         }),
         avatarPerformance: new GameObject({
             x: getGridPosition(10),
@@ -296,11 +296,11 @@ export const techskills = {
             interactions: [
                 {
                     events: [
-                        {type: 'message', text: 'Website Performance'}
+                        {type: 'message', text: 'Governance Systems'}
                     ]
                 }
             ],
-            label: 'Performance'
+            label: 'Governance Systems'
         }),
     },
     limits: {

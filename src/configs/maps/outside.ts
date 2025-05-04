@@ -210,25 +210,21 @@ export const outside = {
                     events: [
                         {
                             type: 'message',
-                            text:`Professor: Hi Vasco, you're back! I kept your University Degree around. Let me see...`
+                            text:`Professor: Ah, Shivom, back again! Let's see what you've built this time...`
                         },
                         {
                             type: 'message',
-                            text:`Professor: There you go!`
+                            text:`Professor: Impressive as always. Here's your credential!`
                         },
                         {
                             type: 'interactionBox',
-                            title: 'Computer Science Degree',
+                            title: 'Bachelor of Science in Computer Science',
                             textLines:  [
-                                `- Algorithms and Data Scructures`,
-                                `- Computers Architecture`,
-                                `- Logical Programming`,
-                                `- Databases`,
-                                `- Algorithms Complexity`,
-                                `- Web Technologies`,
-                                `- Functional Programming`,
-                                `- Unix based systems`,
-                            
+                                `- Blockchain Fundamentals`,
+                                `- Data Structures and Algorithms`,
+                                `- Distributed Systems`,
+                                `- Cryptography`,
+                                `- Machine Learning`,
                             ],
                         },
                     ]
@@ -239,7 +235,7 @@ export const outside = {
             },
         }),
         //PROFESSIONAL EXPERIENCE BUILDINGS
-        arkadiumBillboard: new GameObject({
+        lemniscapBillboard: new GameObject({
             x: getGridPosition(33),
             y: getGridPosition(17.5),
             hasShadow: false,
@@ -254,7 +250,7 @@ export const outside = {
                 },
             },
         }),
-        arkadium: new GameObject({
+        lemniscapBuilding: new GameObject({
             x: getGridPosition(33),
             y: getGridPosition(13),
             hasShadow: false,
@@ -272,7 +268,7 @@ export const outside = {
                 },
             },
         }),
-        arkadiumInfo: new GameObject({
+        lemniscapInfo: new GameObject({
             x: getGridPosition(39),
             y: getGridPosition(19),
             hasShadow: false,
@@ -291,20 +287,20 @@ export const outside = {
             interactions: [
                 {
                     events: [
-                        // {type: 'message', text: `I'm currently working at Farfetch since 2017. My job here is to create tools and features to maximize website performance and to help developers experience`}
                         {
                             type: 'interactionBox',
-                            title: 'Arkadium (Dec 2024 - Present)',
+                            title: 'Lemniscap (Jun 2023 – Sep 2024)',
                             textLines: [
-                                `Arkadium specializes in developing premium online games for a broad audience, focusing on user-friendly, accessible games that emphasize quality and enjoyment.`,
-                                `I joined Arkadium as a Senior Full Stack Developer to help create engaging browser-based game arenas, to build interactive, high-performance gaming experiences.`
+                                `Lemniscap is a research-driven crypto investment firm focused on early-stage blockchain startups.`,
+                                `As Research Lead, I led thesis creation, market analysis, and protocol deep-dives to support high-conviction investments.`,
+                                `Collaborated with founders and analysts to shape tokenomics, product strategy, and incentive design.`
                             ],
                         },
                     ]
                 }
             ],
         }),
-        emmaBillboard: new GameObject({
+        nethermindBillboard: new GameObject({
             x: getGridPosition(25),
             y: getGridPosition(15.5),
             hasShadow: false,
@@ -319,7 +315,7 @@ export const outside = {
                 },
             },
         }),
-        emma: new GameObject({
+        nethermindBuilding: new GameObject({
             x: getGridPosition(25),
             y: getGridPosition(11),
             hasShadow: false,
@@ -344,7 +340,7 @@ export const outside = {
                 src: '../images/doors/door-building.png',
             }
         }),
-        emmaInfo: new GameObject({
+        nethermindInfo: new GameObject({
             x: getGridPosition(31),
             y: getGridPosition(19),
             hasShadow: false,
@@ -365,32 +361,18 @@ export const outside = {
                     events: [
                         {
                             type: 'interactionBox',
-                            title: 'Emma (Jul 2023 - Dec 2024)',
+                            title: 'Nethermind (Jun 2022 – Jun 2023)',
                             textLines: [
-                                `Emma is a leading company in mattress and sleep market, dedicated to optimizing sleep quality through innovative, science-backed products. `,
-                                `Focused on expanding global market reach while maintaining premium quality and optimizing the online shopping experience through robust, engaging web platforms.`
-                            ],
-                        },
-                        {
-                            type: 'interactionBox',
-                            title: 'Emma (Jul 2023 - Dec 2024)',
-                            textLines: [
-                                `At Emma, I helped streamlining the rendering process, reducing generation time through optimized scripting and cache strategies.`,
-                                `I worked closely with designers and product managers to develop and refine UI components that bring direct value to Emma’s website, ensuring a user-centric experience.`
-                            ],
-                        },
-                        {
-                            type: 'interactionBox',
-                            title: 'Emma (Jul 2023 - Dec 2024)',
-                            textLines: [
-                                `I also collaborated with backend teams to migrate a key service for delivery tracking, improving the site's functionality and data accuracy.`,
+                                `Nethermind is an Ethereum infrastructure company working with top-tier protocols like Lido and Flashbots.`,
+                                `At Nethermind, I conducted deep research into DeFi protocols, designed validator incentive structures, and analyzed staking mechanics.`,
+                                `Worked with internal and external stakeholders to inform development of DeFi products and strategy.`
                             ],
                         },
                     ]
                 }
             ],
         }),
-        farfetchBillboard: new GameObject({
+        degenDaoBillboard: new GameObject({
             x: getGridPosition(17),
             y: getGridPosition(15.5),
             hasShadow: false,
@@ -405,7 +387,7 @@ export const outside = {
                 },
             },
         }),
-        farfetch: new GameObject({
+        degenDaoBuilding: new GameObject({
             x: getGridPosition(17),
             y: getGridPosition(11),
             hasShadow: false,
@@ -430,7 +412,7 @@ export const outside = {
                 src: '../images/doors/door-building.png',
             }
         }),
-        farfetchInfo: new GameObject({
+        degenDaoInfo: new GameObject({
             x: getGridPosition(23),
             y: getGridPosition(19),
             hasShadow: false,
@@ -451,25 +433,18 @@ export const outside = {
                     events: [
                         {
                             type: 'interactionBox',
-                            title: 'Farfetch (Sep 2017 - Jun 2023)',
+                            title: 'DegenDAO (Dec 2021 – Sep 2022)',
                             textLines: [
-                                `Farfetch operates as a global luxury fashion platform that connects customers with high-end brands and boutiques through an advanced e-commerce site and marketplace.`,
-                                `The company’s strategy revolves around offering a seamless, high-quality digital shopping experience with a strong focus on personalization and cutting-edge technology to meet the demands of luxury consumers.`
+                                `DegenDAO is a crypto-native investment collective supporting early projects through capital and strategy.`,
+                                `I sourced high-potential protocols, contributed to token design, and optimized yield farming strategies.`,
+                                `Also assisted projects with UI/UX testing and DAO governance mechanics.`
                             ],
                         },
-                        {
-                            type: 'interactionBox',
-                            title: 'Farfetch (Sep 2017 - Jun 2023)',
-                            textLines:  [
-                                `As a Front-End Engineer at Farfetch, I maintained core TypeScript and JavaScript tools, managed containerized deployments, and implemented testing mechanisms to ensure smooth site functionality.`,
-                                `Partnering with designers and product owners, I also helped create and optimize high-traffic React components, maintaining performance and stability.`
-                            ],
-                        }
                     ]
                 }
             ],
         }),
-        dotlogicBillboard: new GameObject({
+        mondoveBillboard: new GameObject({
             x: getGridPosition(9),
             y: getGridPosition(16.5),
             hasShadow: false,
@@ -484,7 +459,7 @@ export const outside = {
                 },
             },
         }),
-        dotlogic: new GameObject({
+        mondoveBuilding: new GameObject({
             x: getGridPosition(9),
             y: getGridPosition(14),
             hasShadow: false,
@@ -509,7 +484,7 @@ export const outside = {
                 height: getGridPosition(2),
             }
         }),
-        dotlogicInfo: new GameObject({
+        mondoveInfo: new GameObject({
             x: getGridPosition(15),
             y: getGridPosition(18),
             hasShadow: false,
@@ -528,28 +503,19 @@ export const outside = {
             interactions: [
                 {
                     events: [
-                        // {type: 'message', text: `I'm currently working at Farfetch since 2017. My job here is to create tools and features to maximize website performance and to help developers experience`}
                         {
                             type: 'interactionBox',
-                            title: 'DotLogic (Sep 2016 - Sep 2017)',
+                            title: 'Mondove Biotech (Jul 2021 – Nov 2021)',
                             textLines: [
-                                `At Dotlogic, I worked as a developer for a year in 2016. The company specializes in developing medical software for hospitals, with a focus on cardiology.`,
-                                `I began my time at Dotlogic as a professional intern, where I had the opportunity to create a tool using Javascript and Canvas to read and display ECG data on the page`
-                            ],
-                        },
-                        {
-                            type: 'interactionBox',
-                            title: 'DotLogic (Sep 2016 - Sep 2017)',
-                            textLines:  [
-                                `After my internship, I was offered a full-time position at the company and continued to help improve various web tools.`,
-                                `Working at Dotlogic provided me with valuable experience in the healthcare industry and solidified my skills in Javascript and web development.`
+                                `At Mondove, I worked as a blockchain consultant designing a pharma supply chain solution on Corda.`,
+                                `The system enabled traceability and transparency for inventory management in medical logistics.`
                             ],
                         },
                     ]
                 }
             ],
-        }), 
-        blip: new GameObject({
+        }),
+        leapxBuilding: new GameObject({
             x: getGridPosition(1),
             y: getGridPosition(9),
             hasShadow: false,
@@ -574,7 +540,7 @@ export const outside = {
                 height: getGridPosition(2),
             }
         }),
-        blipInfo: new GameObject({
+        leapxInfo: new GameObject({
             x: getGridPosition(7),
             y: getGridPosition(19),
             hasShadow: false,
@@ -595,10 +561,10 @@ export const outside = {
                     events: [
                         {
                             type: 'interactionBox',
-                            title: 'Blip (Summer internship - 3 months)',
+                            title: 'Leapx Infotech (Apr 2021 – Jul 2021)',
                             textLines:  [
-                                `During my 3 months summer internship at Blip, I had the opportunity to work on a project to dynamically structure the front-end community documentation using JSDoc3`,
-                                `This project allowed me to get some knowledge on Front End tools while working with Scrum for the first time`
+                                `Leapx is an EdTech company focused on technical upskilling.`,
+                                `I designed a full blockchain course suite—covering Bitcoin, Ethereum, NFTs, DAOs, and the Metaverse.`
                             ],
                         },
                     ]
@@ -693,12 +659,12 @@ export const outside = {
                     events: [
                         {
                             type: 'message', 
-                            text: `https://github.com/vascofbribeiro`,
+                            text: `https://github.com/sheeki03`,
                             isLink: true
                         },
                         {
                             type: 'message', 
-                            text: `https://www.linkedin.com/in/vascof-ribeiro/`,
+                            text: `https://twitter.com/sheeki03`,
                             isLink: true
                         }
                     ],
@@ -731,15 +697,15 @@ export const outside = {
                     events: [
                         {
                             type: 'message',
-                            text:'Winner in the category "Fun" at Make Or Break 2017 (Porto Summer Of Code) - 3 days hackathon'
+                            text:'Ranked #4 on the DegenScore v1 leaderboard — heavy on-chain usage'
                         },
                         {
                             type: 'message',
-                            text:'Our team created an application to rate public restrooms using sensors to detect if toilet paper is available'
+                            text:'Early contributor to validator decentralization efforts at Lido'
                         },
                         {
                             type: 'message',
-                            text:'https://medium.com/makeorbreak-io/make-or-break-more-than-a-hackathon-45d43c0042ba',
+                            text:'https://degenscore.com',
                             isLink: true
                         },
                     ]
@@ -767,10 +733,10 @@ export const outside = {
                     events: [
                         {
                             type: 'interactionBox',
-                            title: 'Android Development Course',
+                            title: 'Education & Courses',
                             textLines:  [
-                                `In 2014 I applied to a 2 week Android course in Yekaterinburg with BEST - Board of European Students`,
-                                `I ended up being chosen to participate and the aim of the course was to give students good knowledge of Android architecture and programming`
+                                `Bachelor of Science in Computer Science, GGSIPU`,
+                                `Completed courses from INSEAD, Coursera, DataCamp, Frankfurt School`
                             ]
                         },
                     ]
@@ -799,7 +765,7 @@ export const outside = {
                     events: [
                         {
                             type: 'message',
-                            text:'I love to travel and discover new places 🌍'
+                            text:'Born too late to explore the earth. Born too early to explore the universe. But born just in time to explore the chain`"'
                         },
                     ]
                 }
@@ -845,17 +811,11 @@ export const outside = {
                     events: [
                         {
                             type: 'interactionBox',
-                            title: 'ESN Porto (2015-2018)',
+                            title: 'Community Contributor',
                             textLines:  [
-                                `As a volunteer for ESN - Erasmus Student Network I was responsible for integrating ERASMUS students into the city of Porto.`,
-                                `This was accomplished by organizing trips and activities in partnership with several companies and instituions`
-                            ],
-                        },
-                        {
-                            type: 'interactionBox',
-                            title: 'ESN Porto (2015-2018)',
-                            textLines:  [
-                                `My work helped to create a welcoming and inclusive environment for international students, and allowed them to fully experience and enjoy their time in Porto`,
+                                `Actively shared insights and frameworks via Twitter, Notion, and writeups`,
+                                `Mentored early-stage founders on token design and governance`,
+                                `Frequent contributor to DAO discussions and research forums`
                             ],
                         },
                     ],
@@ -946,7 +906,7 @@ export const outside = {
                     events: [
                         {
                             type: 'message',
-                            text: `You grab a cold beer and take a refreshing sip!`,
+                            text: `You grab a cold beer and chat about rollup decentralization 🍻`,
                         },
                         {
                             type: 'beer',
@@ -983,7 +943,7 @@ export const outside = {
             {
                 triggerOnce: true,
                 events: [
-                    {type: 'message', text: `A wild bug appeared!!`},
+                    {type: 'message', text: `A wild exploit appeared!!`},
                     {type: 'show', who: 'bug', direction: 'down' },
                     {type: 'walk', who: 'bug', direction: 'up'},
                     {type: 'walk', who: 'bug', direction: 'up'},
@@ -992,7 +952,7 @@ export const outside = {
                     {type: 'walk', who: 'bug', direction: 'up'},
                     {type: 'walk', who: 'bug', direction: 'up'},
                     {type: 'hide', who: 'bug' },
-                    {type: 'message', text: `That's one less for the QA Team!`},
+                    {type: 'message', text: `Patched and deployed! Next audit inbound.`},
                 ]
             }
         ],
@@ -1041,7 +1001,7 @@ export const outside = {
         [getGridCoord(28,19)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1049,7 +1009,7 @@ export const outside = {
         [getGridCoord(27,19)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1057,7 +1017,7 @@ export const outside = {
         [getGridCoord(19,19)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1065,7 +1025,7 @@ export const outside = {
         [getGridCoord(20,19)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1073,7 +1033,7 @@ export const outside = {
         [getGridCoord(12,18)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1081,7 +1041,7 @@ export const outside = {
         [getGridCoord(11,18)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1089,7 +1049,7 @@ export const outside = {
         [getGridCoord(3,19)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1097,7 +1057,7 @@ export const outside = {
         [getGridCoord(4,19)]: [
             {
                 events: [
-                    {type: 'message', text: `I'm not allowed to enter the building since I don't work here anymore`},
+                    {type: 'message', text: `This protocol is sunsetted... for now.`},
                     {type: 'walk', who: 'miniMe', direction: 'down' },
                 ]
             }
@@ -1135,10 +1095,10 @@ export const outside = {
         {type: 'walk', who: 'miniMe', direction: 'up'},
         {type: 'walk', who: 'miniMe', direction: 'up'},
         {type: 'idle', who: 'miniMe', direction: 'down', time: 200},
-        {type: 'message', text: 'Hello! 👋 Welcome to my Portfolio', showNote: true},
-        {type: 'message', text: `My name is Vasco and I'm a Front-end Developer`},
+        {type: 'message', text: 'Hey, welcome to my world of onchain exploration 👋', showNote: true},
+        {type: 'message', text: `I'm Shivom, a crypto-native researcher and investor`},
         {type: 'message', text: (isMobile: boolean) => {
-                return `Feel free to explore the rooms! Use the ${isMobile ? 'joystick' : 'arrows'} to walk around and press ${isMobile ? 'A' : 'spacebar'} to interact with objects.`
+                return `Feel free to explore — many protocols, no permissions needed.`
             }
         }
     ]

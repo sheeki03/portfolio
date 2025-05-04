@@ -50,7 +50,7 @@ export const room = {
                 {
                     events: [{
                         type:'message',
-                        text: 'I like to play the piano for fun!',
+                        text: 'I like composing frameworks as much as melodies 🎹',
                     }]
                 }
             ],
@@ -75,7 +75,7 @@ export const room = {
                 {
                     events: [{
                         type:'message',
-                        text: '1st Place in Porto Summer of Code 2017',
+                        text: 'Top 5 DegenScore OG — early, active, aligned 🏆',
                     }]
                 }
             ],
